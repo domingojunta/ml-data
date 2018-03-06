@@ -8,10 +8,14 @@ flag=1;
 
 while(flag==1)
 {
+printf("============================================================================ \n");
 printf("Menu:\n");
+printf("============================================================================ \n");
 printf("0.- EXIT\n");
 printf("1.- Number of instances, features and labels archivo yeast (Juan A. Romero)\n");
 printf("2.- Number of instances, features and labels archivo scene (Juan A. Romero)\n");
+printf("============================================================================ \n");
+printf("\n");
 scanf("%d", &x);
 fflush(stdin);
 printf("\n\n");
